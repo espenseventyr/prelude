@@ -144,7 +144,7 @@ package.
 
 ** No scroll-bars or menu-bar
    #+BEGIN_SRC emacs-lisp
-     (scroll-bar-mode -1)
+     ;;(scroll-bar-mode -1) ;;for some reason doesn't work on funtoo ssh
      (menu-bar-mode -1)
      (tool-bar-mode -1)
    #+END_SRC
